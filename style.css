@@ -1,23 +1,39 @@
+*{
+	margin:  0 auto;
+}
+
+	body {
+	font-family: arial;
+	background-color: #d3dded;
+	width:  100%;
+	height: 100%;
+}
+
+/*header*/
+
 header {
 	background-color: #022a6b;
 	position:  absolute;
 	width:  100%;
+	margin:  0 auto;
 }
 
 #logo {
-	width: 70px;
+	width: 50px;
 	margin: 10px;
-	margin-left: 100px;
+	margin-left: 70px;
 	float: left;
 }
 
 header h1 {
 	color: white;
 	float: left;
-	font-size:  3em;
-	margin: 0 auto;
-	margin-left: 1em;
+	font-size:  2.5em;
+	margin-left: 15px;
+	margin-top: 10px;
 }
+
+/*main*/
 
 main {
 	background-color: #d3dded;
@@ -25,54 +41,93 @@ main {
 	margin: 0 auto;
 	margin-top: 90px;
 	width: 100%;
-	height: 100%;
+	height: 900px;
 	text-align: center;
 	display: inline-block;
 }
 
+/*picture section*/
+
 #pics {
 	position:  absolute;
-	width: 1000px;
-	height: 100%;
 	margin: 0 auto;
+	width: 100%;
 	text-align: center;
 }
 
 .frame {
 	float: left;
-	border: 2px solid grey;
-	margin: 20px;
+	background-color: white;
+	border: 2px solid #999999;
+	margin: 92px;
+	height: 430px;
 }
 
 .cpic {
 	width: 450px;
-	height: 100%;
+	height: 350px;
 }
 
-#button {
-	background-color: #d3dded;
-	position: absolute;
-	width: 100%;
-	height:  100%;
-	text-align: center;
-	margin-top: 800px;
-	margin-bottom:  200px;
-	border:  2px solid green;
-	overflow:  hidden;
+/*picture description*/
+
+.left {
+	float: left;
+	margin-left: 5px;
 }
+
+.right {
+	margin-right: 5px;
+}
+
+.city {
+	color: #51a9e8;
+	text-align: left;
+	font-size: 2em;
+}
+
+.apr {
+	color: #8c8c8c;
+	text-align: right;
+	font-size: 2em;
+}
+
+.country {
+	color: #8c8c8c;
+	text-align:  left;
+	margin-top: 10px;
+	font-size:  1.5em;
+}
+
+.aprd {
+	color: #999999;
+	text-align: right;
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+
+ /*result section*/
 
 #comparison {
 	position: absolute;
-	margin-top: 800px;
 	width: 100%;
-	text-align: center;
+	margin-top: 550px;
+	font-size: 1.9em;
+	float: left;
 }
 
 #result {
 	background-color: #51a9e8;
 	position: absolute;
+	margin-left: -120px;
+	margin-top: 650px;
 	border-radius: 20px;
-	margin-top: 800px;
-	width: 450px;
-	height: 200px;
+	width: 250px;
+	height: 100px;
+	float: left;
+}
+
+#res {
+	font-size: 4em;
+	color: white;
+	margin-top: 0.20em;
 }

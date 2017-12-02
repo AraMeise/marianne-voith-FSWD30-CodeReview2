@@ -6,10 +6,12 @@ var ldav= (ldn[0] + ldn[1] + ldn[2] + ldn[3])/4;
 
 var diff= ldav-adav;
 
-document.getElementById ('citya').innerHTML= adam[5]
-document.getElementById ('apra').innerHTML= adav
-document.getElementById ('countrya').innerHTML= adam[4]
-document.getElementById ('cityb').innerHTML= ldn[5]
-document.getElementById ('aprb').innerHTML= ldav
-document.getElementById ('countryb').innerHTML= ldn[4]
-document.getElementById ('result').innerHTML= diff
+document.getElementById ('citya').innerHTML= adam[5];
+document.getElementById ('apra').innerHTML= adav;
+document.getElementById ('countrya').innerHTML= adam[4];
+document.getElementById ('cityb').innerHTML= ldn[5];
+document.getElementById ('aprb').innerHTML= ldav;
+document.getElementById ('countryb').innerHTML= ldn[4];
+document.getElementById ('res').innerHTML= diff+("€");
+document.getElementById ('cita').innerHTML= adam[5];
+document.getElementById ('citb').innerHTML= ldn[5];
